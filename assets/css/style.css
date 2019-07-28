@@ -1,0 +1,17 @@
+  #draggable0 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable1 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable2 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable3 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable4 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable5 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable6 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable7 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable8 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable9 { width: 150px; height: 150px; padding: 0.5em; }
+  #draggable10 { width: 150px; height: 150px; padding: 0.5em; }
+
+ body{
+    cursor: url("../img/cursor.png"), auto !important;
+    background-image: linear-gradient(lightblue, pink);
+    height: 100vh;
+}
