@@ -9,6 +9,16 @@
   #draggable8 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
   #draggable9 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
   #draggable10 { width: 200px; height: 200px; position: absolute; background: none; border:none;  }
+  #draggable11 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
+  #draggable12 { width: 400px; height: 50px; position: absolute; background-color: yellow; border:none; }
+  #draggable13 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
+  #draggable14 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
+  #draggable15 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
+  #draggable16 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
+  #draggable17 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
+  #draggable18 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
+  #draggable19 { width: 200px; height: 200px; position: absolute; background: none; border:none; }
+  #draggable20 { width: 200px; height: 200px; position: absolute; background: none; border:none;  }
 
  body{
     cursor: url("../img/cursors/cursor1.png"), auto;
