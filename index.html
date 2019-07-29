@@ -9,11 +9,12 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-   <!-- <script src="assets/js/cursor.js"></script> -->
+   <script src="assets/js/cursor.js"></script>
+   <script src="assets/js/hearts.js"></script>
 
 </head>
 <body>
- 
+ <div id="header-plugin"></div>
  <div id="container">
 	<div id="northMarquee" class="marquee"><span>** tio zach! ** tio zach! ** tio zach! ** tio zach! ** tio zach! ** tio zach! **</span></div>
 	<div id="eastMarquee" class="marquee"><span>** tio zach! ** tio zach! ** tio zach! ** tio zach! ** tio zach! ** tio zach! **</span></div>
@@ -24,16 +25,59 @@
 	<div id="bottomRight"><img src="assets/img/germany.gif" class="flag"/></div>
 	<div id="bottomLeft"><img src="assets/img/tanzania.gif" class="flag"/></div>
 	<div id="centralPanel">
+		<div class="bg_heart">
 		<div id="draggable0" class="ui-widget-content" style="display: none">
-  tio zach!
-</div>
- 
-<div id="draggable1" class="ui-widget-content" style="display: none">
-  tio zach!
-</div>
+		  <img src="assets/img/ubereats.png" class="boxImg"/>
+		</div>
+		 
+		<div id="draggable1" class="ui-widget-content" style="display: none">
+		  <img src="assets/img/raptors.png" class="boxImg"/>
+		</div>
 
+		<div id="draggable2" class="ui-widget-content" style="display: none">
+		  <img src="assets/img/oktoberfest.png" class="boxImg"/>
+		</div>
+		 
+		<div id="draggable3" class="ui-widget-content" style="display: none">
+		  <img src="assets/img/phoenix.png" class="boxImg"/>
+		</div>
+
+		<div id="draggable4" class="ui-widget-content" style="display: none">
+		  <img src="assets/img/lamplighters.png" class="boxImg"/>
+		</div>
+
+		<div id="draggable5" class="ui-widget-content" style="display: none">
+		  <img src="assets/img/egg fried.png" class="boxImg"/>
+		</div>
+
+		<div id="draggable6" class="ui-widget-content" style="display: none">
+		  <img src="assets/img/coffee.png" class="boxImg"/>
+		</div>
+
+		<div id="draggable7" class="ui-widget-content" style="display: none">
+		  <img id="zach" src="assets/img/zach-heads/zach1.png" class="boxImg"/>
+		</div>
+
+		<div id="letterBox" class="letterBox">
+			<div id="closeButton" onClick='closeLetter()'>x</div>
+			<p id = "letterContents">
+			Dearest Zach, <br><br>
+			Happy birthday!!! here is a fan website with all of your favourite things in one place.
+			<br><br>
+			with love from sakiya!! nida sends love too
+			<br><br>
+			agnes + gary
+			</p>
+		</div>
+
+		<div class="template shine"></div>
+	</div>
 	</div>
 </div>
+
+<audio id = 'audio' src="assets/tunes/heartofgold.mp3" type="audio/mpeg" autoplay="true">
+Your browser does not support the audio element.
+</audio>
 
    <script src="assets/js/main.js"></script>
 </body>
