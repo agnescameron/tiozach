@@ -7,8 +7,8 @@ function closeLetter() {
 
 function placeDivs() {
     for(var i=0; i<20; i++){
-        var left = Math.random()*($(window).width() - 450) + 50;
-        var top = Math.random()*($(window).height() - 450) + 50;
+        var left = Math.random()*($(window).width() - 450);
+        var top = Math.random()*($(window).height() - 450);
         $( `#draggable${i}`).css({'left': left, 'top': top});
         $( `#draggable${i}`).show();
     }
